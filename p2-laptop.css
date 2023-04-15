@@ -1,0 +1,131 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    width: 1440px;
+    height: 655px;
+    margin: auto;
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.heading{
+    height: 200px;
+}
+
+#delivery{
+    color:hsl(234, 12%, 34%);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 15px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#h1{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 30px;
+    color: hsl(234, 12%, 34%);
+    font-weight: bolder;
+    text-align: center;
+}
+
+#artificial{
+    color:hsl(234, 12%, 34%);
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight:500;
+    width: 450px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.supervisor{
+    display: inline-block;
+    height: 195px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 4px rgba(37,43, 70, 0.1);
+    border-top: 5px solid hsl(180, 62%, 55%);
+    background-color: white;
+    text-align: center;
+    margin-left: -655px;
+    margin-top: 90px;
+}
+
+.team{
+    height: 195px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 4px rgba(37,43, 70, 0.1);
+    border-top: 5px solid hsl(0, 78%, 62%);
+    background-color: white;
+    margin: 0 auto; 
+    text-align: center;
+    margin-top: -310px;
+}
+
+.karma{
+    height: 195px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 4px rgba(37,43, 70, 0.1);
+    border-top: 5px solid hsl(34, 97%, 64%);
+    background-color: white;
+    margin: 0 auto; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+.calc{
+    height: 195px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 4px rgba(37,43, 70, 0.1);
+    margin-left: 900px;
+    margin-top: -304px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    background-color: white;
+    text-align: center;
+}
+
+.h4{
+    color:hsl(234, 12%, 34%);
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.para{
+    color: hsl(234, 12%, 34%);
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+    margin-left: 170px;
+    margin-top: 25px;
+}
+
